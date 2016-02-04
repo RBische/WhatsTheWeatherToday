@@ -1,5 +1,5 @@
 # WhatsTheWeatherToday
--------
+
 Example app showing RxJava usage with Retrofit
 
 Open Weather Map API Key is required.
@@ -22,7 +22,7 @@ This sample uses the Gradle build system.  To build this project, use the
 
 License
 -------
-Copyright 2015 Raphaël Bischof
+Copyright 2016 Raphaël Bischof
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
