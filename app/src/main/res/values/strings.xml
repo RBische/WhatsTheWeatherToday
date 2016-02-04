@@ -1,0 +1,8 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">What\'s the Weather Today</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_change_local">Change localization</string>
+    <string name="preference_key_latitude">lat</string>
+    <string name="preference_key_longitude">lon</string>
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+</resources>
