@@ -22,7 +22,7 @@ import java.util.Date;
  * Simple inheritance from AppCompatActivity to fetch easily coarse location updates
  * Created by rbischof on 25/02/2015.
  */
-public class GPSApproximativeActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,GoogleApiClient.OnConnectionFailedListener, LocationListener {
+public abstract class GPSApproximativeActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,GoogleApiClient.OnConnectionFailedListener, LocationListener {
     private static final String REQUESTING_LOCATION_UPDATES_KEY = "requesting";
     private static final String LOCATION_KEY = "location";
     private static final String LAST_UPDATED_TIME_STRING_KEY = "lastupdate";
